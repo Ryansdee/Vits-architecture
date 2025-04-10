@@ -116,7 +116,7 @@
           <svg id="waved" style="transform:rotate(0deg); transition: 0.3s; margin-bottom: -1px;" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(42, 40, 41, 1)" offset="0%"></stop><stop stop-color="rgba(42, 40, 41, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,56L80,28L160,112L240,42L320,112L400,112L480,70L560,0L640,70L720,98L800,0L880,56L960,112L1040,28L1120,70L1200,14L1280,14L1360,70L1440,126L1520,84L1600,56L1680,98L1760,84L1840,42L1920,28L1920,140L1840,140L1760,140L1680,140L1600,140L1520,140L1440,140L1360,140L1280,140L1200,140L1120,140L1040,140L960,140L880,140L800,140L720,140L640,140L560,140L480,140L400,140L320,140L240,140L160,140L80,140L0,140Z"></path></svg>
           <section class="py-5 project1 text-white">
             <div class="text-center">
-              <h2 class="fw-semibold text-decoration-underline">Projets</h2>
+              <h2 class="fw-semibold text-decoration-underline" id="projet">Projets</h2>
             <!-- Button trigger modal -->
           <button type="button" class="btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="./data/img/01.png" alt="" class="img-fluid rounded" style="object-fit: cover; width: 400px;">
@@ -129,6 +129,9 @@
           </button>
           <button type="button" class="btn btn-transparent" data-bs-toggle="modal" data-bs-target="#digniteModal">
             <img src="./data/img/04.png" alt="" class="img-fluid rounded" style="object-fit: cover; width: 400px;">
+          </button>
+          <button type="button" class="btn btn-transparent" data-bs-toggle="modal" data-bs-target="#bioModal">
+            <img src="./data/img/05.png" alt="" class="img-fluid rounded" style="object-fit: cover; width: 400px;">
           </button>
         </div>
 
@@ -350,9 +353,71 @@
             </div>
           </div>
 
+          <div class="modal fade" id="bioModal" tabindex="-1" aria-labelledby="bioModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content" style="background: #2A2829;">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="bioModalLabel"></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(1);"></button>
+                </div>
+                <div class="modal-body text-white">
+                  <div class="row align-items-center text-center" id="projet">
+                    <h1 class="mx-auto" data-aos="fade-up">05. BIO DIVERSE cité</h1>
+                    <p data-aos="fade-up"><small>Intervention paysagère (Vits Louis & Laura Ghabris) [Cité modèle, Laeken]</small></p>
+                    
+                    <!-- Image principale centrée -->
+                    <div class="col-12 mb-4" data-aos="fade-up">
+                      <img src="./data/img/05.png" alt="Projet SKRÜV" class="img-fluid rounded shadow-lg" style="object-fit: cover; max-width: 70%; height: auto;">
+                    </div>
+                    
+                    <!-- Texte qui suit l'image principale -->
+                    <div class="col-md-8 mx-auto" data-aos="fade-up">
+                      <h2 class="mb-4"><strong>La feuille</strong></h2>
+                      <p>
+                        Petite feuille du haut de mon arbre, je contemple.
+                      </p>
+                      <p>
+                        Je me demande ce que sont ces énormes monolithes qui me font de l'ombre.
+                      </p>
+                      <p>
+                        Des gens passent en dessous de mon arbre, mais ne me remarquent pas. Rare sont ceux qui se soucient de moi. Le vent m'agite mais je m'accroche. Mes amies tombent par tonne, c'est l'automne.
+                      </p>
+                      <p>
+                        Mon grand-père me racontait qu'au milieu des autres arbres il se complaisait. Il appelait ça la forêt.
+                      </p>
+                      <p>
+                        L'automne venue, il perdait son feuillage. Il embellissait le grand paysage.
+                      </p>
+                      <p>
+                        Mais moi, à quoi bon m'échouer sur ce paysage morcelé.
+                      </p>
+                      <p>
+                        Rencontrer les arbres d'en face est une chimère. Les relations ne sont qu'éphémères.
+                      </p>
+                      <p>
+                        Installées par les modernistes, la nature est controlée.
+                      </p>
+                      <p>
+                        Changer vers quelle piste, une nature libérée?
+                      </p>
+                    <img src="./data/img/05.1.png" alt="" style="object-fit: cover; max-width: 100%; height: auto;" class="img-fluid rounded shadow-lg py-2">
+                    <h2 class="mb-4"><strong>bio-diversité</strong></h2>
+                    <img src="./data/img/05.2.png" alt="" style="object-fit: cover; max-width: 100%; height: auto;" class="img-fluid rounded shadow-lg py-2">
+                    <img src="./data/img/05.3.png" alt="" style="object-fit: cover; max-width: 100%; height: auto;" class="img-fluid rounded shadow-lg py-2">
+                    <h2 class="mb-4"><strong>facteurs d'étude</strong></h2>
+                    <img src="./data/img/05.4.png" alt="" style="object-fit: cover; max-width: 100%; height: auto;" class="img-fluid rounded shadow-lg py-2">
+                    <h2 class="mb-4"><strong>vision</strong></h2>
+                    <img src="./data/img/05.5.png" alt="" style="object-fit: cover; max-width: 100%; height: auto;" class="img-fluid rounded shadow-lg py-2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           </section>
           <svg id="wave" style="transform:rotate(180deg); transition: 0.3s; margin-top: -2px; border: none !important;" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(42, 40, 41, 1)" offset="0%"></stop><stop stop-color="rgba(42, 40, 41, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L13.3,2.3C26.7,5,53,9,80,11.7C106.7,14,133,14,160,16.3C186.7,19,213,23,240,21C266.7,19,293,9,320,23.3C346.7,37,373,75,400,77C426.7,79,453,47,480,46.7C506.7,47,533,79,560,91C586.7,103,613,93,640,84C666.7,75,693,65,720,56C746.7,47,773,37,800,28C826.7,19,853,9,880,9.3C906.7,9,933,19,960,30.3C986.7,42,1013,56,1040,53.7C1066.7,51,1093,33,1120,21C1146.7,9,1173,5,1200,2.3C1226.7,0,1253,0,1280,7C1306.7,14,1333,28,1360,37.3C1386.7,47,1413,51,1440,63C1466.7,75,1493,93,1520,102.7C1546.7,112,1573,112,1600,95.7C1626.7,79,1653,47,1680,30.3C1706.7,14,1733,14,1760,28C1786.7,42,1813,70,1840,86.3C1866.7,103,1893,107,1907,109.7L1920,112L1920,140L1906.7,140C1893.3,140,1867,140,1840,140C1813.3,140,1787,140,1760,140C1733.3,140,1707,140,1680,140C1653.3,140,1627,140,1600,140C1573.3,140,1547,140,1520,140C1493.3,140,1467,140,1440,140C1413.3,140,1387,140,1360,140C1333.3,140,1307,140,1280,140C1253.3,140,1227,140,1200,140C1173.3,140,1147,140,1120,140C1093.3,140,1067,140,1040,140C1013.3,140,987,140,960,140C933.3,140,907,140,880,140C853.3,140,827,140,800,140C773.3,140,747,140,720,140C693.3,140,667,140,640,140C613.3,140,587,140,560,140C533.3,140,507,140,480,140C453.3,140,427,140,400,140C373.3,140,347,140,320,140C293.3,140,267,140,240,140C213.3,140,187,140,160,140C133.3,140,107,140,80,140C53.3,140,27,140,13,140L0,140Z"></path></svg>
-          <section class="py-5 project2 text-dark bg-light">
+          <section class="py-5 project2 text-dark bg-light" id="contact">
             <div class="container">
               <h2 class="text-center mx-auto fw-semibold text-decoration-underline">Contact</h2>
             <div class="container py-5">
