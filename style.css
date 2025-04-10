@@ -8,6 +8,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .navbar-nav a{
     position: relative;
     display: inline-block;
@@ -60,8 +61,43 @@ body{
 
 .project1 .container .img-fluid {
     width: 1800px !important;
-  }
+}
   
+
+.project2{
+    background: #2A2829;
+}
+
+.project2 .container .img-fluid {
+    width: 1800px !important;
+}
+
+footer{
+    background: #2A2829;
+}
+
+footer a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; /* hauteur du "border" */
+    width: 0;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s ease;
+    border-radius: 2em;
+}
+
+footer a:hover::after{
+    width: 100%;
+}
 
 @media screen and (max-width: 376px){
     header nav .navbar-brand{
