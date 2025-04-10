@@ -4,7 +4,8 @@
 }
 
 body{
-    font-family: 'Vits' !important; 
+    font-family: 'Vits' !important;
+    overflow-x: hidden;
 }
 
 .navbar-nav a{
@@ -52,6 +53,14 @@ body{
     padding: 15px;
     backdrop-filter: blur(5px);
 }
+
+.project1{
+    background: #2A2829;
+}
+
+.project1 .container .img-fluid {
+    width: 1800px !important;
+  }
   
 
 @media screen and (max-width: 376px){
