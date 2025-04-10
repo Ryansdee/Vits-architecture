@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>VITS - Architecture</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./data/img/favicon.png" type="image/x-icon">
+  <meta name="description" content="Architecture et design de Vits, un projet de recherche sur l'architecture et le design.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="keywords" content="Vits, architecture, design, projet de recherche, innovation, technologie">
+  <meta name="author" content="Vits Team">
+  <script src="https://kit.fontawesome.com/09ead4cec6.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="."><img src="./data/img/ln.png" alt="Logo" class="img-fluid-top" width="100"> Architecture</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=".">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projet">Projet</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container-top">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./data/img/p1.png" class="d-block w-100 h-50" alt="Slide 1">
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1>ROCK</h1>
+                            <p class="opacity-75">Refuge de montagne [Col Mijta, Pyrénées-Orientales, France]</p>
+                            <p><a class="btn btn-lg btn-secondary" href="#rock">En lire plus</a></p>
+                          </div>
+                        </div>
+                    </div>                    
+                    <div class="carousel-item">
+                        <img src="./data/img/p2.png" class="d-block w-100 h-50" alt="Slide 2">
+                        <div class="container">
+                          <div class="carousel-caption text-center">
+                            <h1>PAR VIE</h1>
+                            <p class="opacity-75">Logements collectifs [Gare de Calvoet, Uccle]</p>
+                            <p><a class="btn btn-lg btn-secondary" href="#pvie">En lire plus</a></p>
+                          </div>
+                        </div>
+                    </div>    
+                  <div class="carousel-item">
+                    <img src="./data/img/p4.png" class="d-block w-100 h-50" alt="Slide 3">
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <h1>Dignité</h1>
+                        <p>Aménagement espaces viaires (Louis Vits X Bénétreaux Victor) [Logis Floréal, Watermal Boitsfort]</p>
+                        <p><a class="btn btn-lg btn-primary" href="#dignite">En lire plus</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(42, 40, 41, 1)" offset="0%"></stop><stop stop-color="rgba(42, 40, 41, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,14L80,112L160,70L240,0L320,42L400,84L480,28L560,0L640,56L720,42L800,14L880,56L960,14L1040,56L1120,98L1200,14L1280,0L1360,84L1440,98L1520,98L1600,28L1680,56L1760,112L1840,98L1920,70L1920,140L1840,140L1760,140L1680,140L1600,140L1520,140L1440,140L1360,140L1280,140L1200,140L1120,140L1040,140L960,140L880,140L800,140L720,140L640,140L560,140L480,140L400,140L320,140L240,140L160,140L80,140L0,140Z"></path></svg>
+        <section class="py-5 bg-light">
+            <div class="container">
+              <div class="row align-items-center">
+                <!-- Image de Louis Vits -->
+                <div class="col-md-5 text-center mb-4 mb-md-0" data-aos="fade-right">
+                  <img src="./data/img/Louis_Vits.jpg" alt="Louis Vits" class="img-fluid rounded shadow-lg" style="max-height: 400px; object-fit: cover;">
+                </div>
+                <!-- Texte de présentation -->
+                <div class="col-md-7" data-aos="fade-left">
+                  <h2 class="mb-4">À propos de <strong>Louis Vits</strong></h2>
+                  <p class="lead">
+                    Louis Vits est un architecte passionné, animé par une vision profondément humaine et sensible de l’espace. Chaque projet qu’il conçoit est le fruit d’une recherche sincère d’harmonie entre la nature, la matière et l’usage.
+                  </p>
+                  <p>
+                    Alliant rigueur technique et créativité artistique, il explore des formes innovantes sans jamais perdre de vue l’essentiel : créer des lieux vivants, porteurs de sens, où l’on se sent chez soi. Son travail s’inscrit dans une démarche éthique, durable et résolument tournée vers l’avenir.
+                  </p>
+                  <p>
+                    <strong><i>" Créer des lieux, c'est renforcer les différences " <small>Gion A. Caminada</small></i></strong> C'est au travers de cette citation que je me définis en temps qu'architecte. Chaque lieu <strong>Au regard de son ancrage social et spatial, doit en renforcer l'identité</strong>. La différence est riche soyons curieux des autres.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    once: true,
+  });
+</script>
+</body>
+</html>

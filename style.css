@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Vits';
+    src: url(./data/font/VitsFont.ttf);
+}
+
+body{
+    font-family: 'Vits' !important; 
+}
+
+.navbar-nav a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; /* hauteur du "border" */
+    width: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+    border-radius: 2em;
+}
+
+.navbar-nav a:hover::after{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Vits', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.navbar-nav a{
+    font-family: 'Vits', sans-serif;
+    font-weight: 600
+}
+
+.carousel-item img {
+    height: 500px !important; /* tu peux ajuster à 400px ou 600px selon ton goût */
+    object-fit: cover !important;
+  }
+
+.carousel-caption{
+    color: #000;
+    background: #00000074;
+    padding: 15px;
+    backdrop-filter: blur(5px);
+}
+  
+
+@media screen and (max-width: 376px){
+    header nav .navbar-brand{
+        font-size: 1em
+    }
+}
+
+@media screen and (max-width: 325px){
+    header nav .navbar-brand{
+        font-size: 0.9em
+    }
+}
