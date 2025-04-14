@@ -54,7 +54,14 @@ body{
     padding: 15px;
     backdrop-filter: blur(5px);
 }
-
+button.btn-transparent img {
+    transition: transform 0.2s ease-in-out;
+}
+  
+button.btn-transparent:hover img {
+    transform: scale(1.03);
+}
+  
 .project1{
     background: #2A2829;
 }
